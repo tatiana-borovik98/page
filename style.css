@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+div {
+    width: 50vw;
+    height: 50vh;
+    background: red;
+    font-size: 30px;
+}
+
+p {
+    font-size: 2em;
+}
+body{
+    width: 5000px;
+}
+.first-section{
+    background-color: salmon;
+}
+#hbhb{
+    background-color: sienna;
+    margin:30px;
+    padding: 20px 3px 10px 13px;
+    
+    
+}
+.layout{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border-width: 10px;
+    border-style: outset;
+    border-color: darkkhaki;
+    margin:30px 40px 70px 90px;
+    position: relative;
+    top: 100px;
+
+}
+.layout-red{
+    background-color: red;
+    border: 10px solid blue;
+    margin: 20px 40px;
+    position: absolute;
+}
+.cooll{
+    width: 150px;
+    height: 150px;
+    background-color: darkmagenta;
+    position: fixed;
+    left: 5px;
+    top: 10px;
+}
