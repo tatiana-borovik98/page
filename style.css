@@ -63,17 +63,36 @@ body {
   padding-bottom: 100px;
 }
 .numbers {
-  width: 1920px;
-  height: 250px;
   background-color: #34547a;
   padding-top: 95px;
   padding-bottom: 95px;
   text-align: center;
   overflow: hidden;
 }
+.numbers-item {
+  width: 15%;
+  float: left;
+}
+.numbers-project{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+  .numbers-group{
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+.group-title{
+  color: white;
+  font-size: 21px;
+}
+.group-name{
+  color: white;
+  font-size: 16px;
+}
 .skills {
-  width: 1150px;
-  height: 450px;
   overflow: hidden;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -81,15 +100,38 @@ body {
 .skills-list {
   float: left;
   width: 50%;
-  text-align: center;
 }
-.skillfoto {
+.skills-title{
+  font-size: 32px;
+  color: black;
+  padding-bottom: 50px;
+}
+.skills-adobe{
+  font-size: 16px;
+  color: #727272;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+.skills-rectangle{
+  width: 445px;
+  height: 4px;
+  background-color: #C4C4C4;
+}
+.rectangle-color{
+  width: 349.36px;
+  height: 4px;
+  background-color: #34547A;
+}
+
+.skills-foto {
   float: left;
   width: 50%;
+  text-align: right;
+}
+.skills-foto-size{
+  width: 555px;
 }
 .video {
-  width: 1920px;
-  height: 1004px;
   background-color: #eeeff1;
   overflow: hidden;
   padding-top: 100px;
@@ -110,6 +152,13 @@ body {
   padding-bottom: 55px;
 }
 .rectangle-video {
-  width: 555px;
-  height: 300px;
+  background-image: url("rectangle-video.png");
+  text-align: center;
+  padding-top: 245px;
+  padding-bottom: 245px;
+}
+.projects{
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
