@@ -73,22 +73,22 @@ body {
   width: 15%;
   float: left;
 }
-.numbers-project{
+.numbers-project {
   float: left;
   width: 50%;
   text-align: center;
 }
-  .numbers-group{
-    float: left;
-    width: 50%;
-    text-align: center;
-  }
+.numbers-group {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
 
-.group-title{
+.group-title {
   color: white;
   font-size: 21px;
 }
-.group-name{
+.group-name {
   color: white;
   font-size: 16px;
 }
@@ -101,26 +101,26 @@ body {
   float: left;
   width: 50%;
 }
-.skills-title{
+.skills-title {
   font-size: 32px;
   color: black;
   padding-bottom: 50px;
 }
-.skills-adobe{
+.skills-adobe {
   font-size: 16px;
   color: #727272;
   padding-bottom: 20px;
   padding-top: 30px;
 }
-.skills-rectangle{
+.skills-rectangle {
   width: 445px;
   height: 4px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
-.rectangle-color{
+.rectangle-color {
   width: 349.36px;
   height: 4px;
-  background-color: #34547A;
+  background-color: #34547a;
 }
 
 .skills-foto {
@@ -128,7 +128,7 @@ body {
   width: 50%;
   text-align: right;
 }
-.skills-foto-size{
+.skills-foto-size {
   width: 555px;
 }
 .video {
@@ -157,8 +157,127 @@ body {
   padding-top: 245px;
   padding-bottom: 245px;
 }
-.projects{
+.projects {
   overflow: hidden;
   padding-top: 10px;
   padding-bottom: 0px;
+}
+.projects-rectangle1 {
+  float: left;
+}
+.projects-rectangle2 {
+  float: left;
+}
+.projects-rectangle1-size {
+  width: 480px;
+}
+.projects-rectangle2-size {
+  width: 480px;
+}
+.projects-rectangle-one {
+  padding-bottom: 0px;
+  text-align: center;
+}
+.projects-rectangle-two {
+  padding-top: 0px;
+  text-align: center;
+}
+.clients {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+.photo-clients {
+  width: 25%;
+  float: left;
+}
+.photo-clients-size {
+  width: 255px;
+}
+.form {
+  background-color: #eeeff1;
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.form-title {
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
+}
+.form-description {
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.user-name-email {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.form-name {
+  width: 255px;
+  height: 50px;
+  background: #ffffff;
+  color: #5f5d5d;
+}
+.form-email {
+  width: 255px;
+  height: 50px;
+  background: #ffffff;
+  color: #5f5d5d;
+}
+.message {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.form-text {
+  width: 540px;
+  height: 175px;
+  background: #ffffff;
+}
+.form-knopka {
+  width: 190px;
+  height: 55px;
+  background: #34547a;
+  color: #ffffff;
+}
+.form-button {
+  text-align: center;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #34547a;
+  overflow: hidden;
+}
+.footer-name {
+  float: left;
+}
+.footer-name-title {
+  font-size: 21px;
+  color: #ffffff;
+}
+.footer-name-description {
+  font-size: 13px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.image-vk {
+  text-align: right;
+}
+.vk {
+  text-align: right;
+  float: right;
+  padding-right: 20px;
+}
+.placeholder {
+  font-size: 14px;
+  color: #5f5d5d;
 }
