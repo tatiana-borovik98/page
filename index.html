@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="main-layout">
       <div class="container">
         <div class="main-layout-left">
-          <img src="laptop.png" />
+          <img src="img/laptop.png" class="laptop"/>
         </div>
         <div class="main-layout-right">
           <h2 class="main-layout-title">Дизайн и верстка</h2>
@@ -37,7 +38,7 @@
       <div class="container">
         <div class="numbers-item">
           <div class="numbers-project">
-            <img src="project.png" />
+            <img src="img/project.png" />
           </div>
           <div class="numbers-group">
             <div class="group-title">
@@ -50,7 +51,7 @@
         </div>
         <div class="numbers-item">
           <div class="numbers-project">
-            <img src="project.png" />
+            <img src="img/project.png" />
           </div>
           <div class="numbers-group">
             <div class="group-title">
@@ -63,7 +64,7 @@
         </div>
         <div class="numbers-item">
           <div class="numbers-project">
-            <img src="project.png" />
+            <img src="img/project.png" />
           </div>
           <div class="numbers-group">
             <div class="group-title">
@@ -76,7 +77,7 @@
         </div>
         <div class="numbers-item">
           <div class="numbers-project">
-            <img src="project.png" />
+            <img src="img/project.png" />
           </div>
           <div class="numbers-group">
             <div class="group-title">
@@ -89,7 +90,7 @@
         </div>
         <div class="numbers-item">
           <div class="numbers-project">
-            <img src="project.png" />
+            <img src="img/project.png" />
           </div>
           <div class="numbers-group">
             <div class="group-title">
@@ -102,7 +103,7 @@
         </div>
         <div class="numbers-item">
           <div class="numbers-project">
-            <img src="project.png" />
+            <img src="img/project.png" />
           </div>
           <div class="numbers-group">
             <div class="group-title">
@@ -141,7 +142,7 @@
           </div>
         </div>
         <div class="skills-foto">
-          <img src="skillsfoto.png" class="skills-foto-size" />
+          <img src="img/skillsfoto.png" class="skills-foto-size" />
         </div>
       </div>
     </div>
@@ -156,53 +157,33 @@
           латинице с начала XVI века.
         </div>
         <div class="rectangle-video">
-          <img src="play-button.png" />
+          <img src="img/play-button.png" />
         </div>
       </div>
     </div>
     <div class="projects">
-      <div class="project-rectangle-one">
-        <div class="projects-rectangle1">
-          <img src="project-rectangle1.png" class="projects-rectangle1-size" />
-        </div>
-        <div class="projects-rectangle2">
-          <img src="project-rectangle2.png" class="projects-rectangle2-size" />
-        </div>
-        <div class="projects-rectangle1">
-          <img src="project-rectangle1.png" class="projects-rectangle1-size" />
-        </div>
-        <div class="projects-rectangle2">
-          <img src="project-rectangle2.png" class="projects-rectangle2-size" />
-        </div>
-      </div>
-      <div class="project-rectangle-two">
-        <div class="projects-rectangle2">
-          <img src="project-rectangle2.png" class="projects-rectangle2-size" />
-        </div>
-        <div class="projects-rectangle1">
-          <img src="project-rectangle1.png" class="projects-rectangle1-size" />
-        </div>
-        <div class="projects-rectangle2">
-          <img src="project-rectangle2.png" class="projects-rectangle2-size" />
-        </div>
-        <div class="projects-rectangle1">
-          <img src="project-rectangle1.png" class="projects-rectangle1-size" />
-        </div>
-      </div>
+      <div class="item-image item-text"></div>
+      <div class="item-image item-lapt"></div>
+      <div class="item-image item-text"></div>
+      <div class="item-image item-lapt"></div>
+      <div class="item-image item-lapt"></div>
+      <div class="item-image item-text"></div>
+      <div class="item-image item-lapt"></div>
+      <div class="item-image item-text"></div>
     </div>
     <div class="clients">
       <div class="container">
         <div class="photo-clients">
-          <img class="photo-clients-size" src="clients.png" />
+          <img class="photo-clients-size" src="img/clients.png" />
         </div>
         <div class="photo-clients">
-          <img class="photo-clients-size" src="clients.png" />
+          <img class="photo-clients-size" src="img/clients.png" />
         </div>
         <div class="photo-clients">
-          <img class="photo-clients-size" src="clients.png" />
+          <img class="photo-clients-size" src="img/clients.png" />
         </div>
         <div class="photo-clients">
-          <img class="photo-clients-size" src="clients.png" />
+          <img class="photo-clients-size" src="img/clients.png" />
         </div>
       </div>
     </div>
@@ -216,8 +197,7 @@
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.
         </div>
-        <div class="user-name-email">
-          <form>
+        <div class="user">
             <input
               class="form-name"
               type="text"
@@ -225,14 +205,14 @@
               placeholder="Bаше имя"
               value=""
             />
-            <input
+
+             <input
               class="form-email"
               type="text"
               name="email"
               placeholder="Ваш email"
               value=""
             />
-          </form>
         </div>
         <div class="message">
           <form>
@@ -260,14 +240,28 @@
         </div>
         <div class="image-vk">
           <div class="vk">
-            <img src="vk.png" />
+            <img src="img/vk.png" />
           </div>
           <div class="vk">
-            <img src="vk.png" />
+            <img src="img/vk.png" />
           </div>
           <div class="vk">
-            <img src="vk.png" />
+            <img src="img/vk.png" />
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="first-screen">
+      <div class="container">
+        <div class="wd">
+          <img src="img/WD.png"/>
+        </div>
+        <div class="home">
+          <p class="home-text">ГЛАВНАЯ</p>
+          <p class="home-text">ОБ АВТОРЕ</p>
+          <p class="home-text">РАБОТЫ</p>
+          <p class="home-text">ПРОЦЕСС</p>
+          <p class="home-text">КОНТАКТЫ</p>
         </div>
       </div>
     </div>
