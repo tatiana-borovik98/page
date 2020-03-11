@@ -176,9 +176,11 @@ body {
 
 .item-text {
   background-image: url("img/text.png");
+  background-size: cover;
 }
 .item-lapt {
   background-image: url("img/lapt.png");
+  background-size: cover;
 }
 .clients {
   padding-top: 90px;
@@ -609,5 +611,8 @@ body {
     padding-top: 0px;
     font-size: 8px;
     width: 33%;
+  }
+  .menu{
+    display: none;
   }
 }
